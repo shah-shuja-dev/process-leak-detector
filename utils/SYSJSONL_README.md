@@ -1,7 +1,6 @@
 # sysjsonl — whole-machine resource sampler
 
 Logs the **entire machine's** CPU, memory, and GPU memory to JSONL, one line per sample.
-Separate from `leakwatch` (which watches your Django process tree) — use this to correlate
 memory behaviour across programs that have nothing to do with your app, and across machines.
 
 Cross-platform: same script, same JSON schema, on **Linux and Windows**.
